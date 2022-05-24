@@ -22,6 +22,16 @@ public class Main {
             System.out.println(i);
         }
 
+        CountingSort ob = new CountingSort();
+        char cArr[] = { 'g', 'e', 'e', 'k', 's', 'f', 'o',
+                'r', 'g', 'e', 'e', 'k', 's' };
+
+        ob.sort(cArr);
+
+        System.out.print("Sorted character array is ");
+        for (int i = 0; i < cArr.length; ++i)
+            System.out.print(cArr[i]);
+
     }
 
 
